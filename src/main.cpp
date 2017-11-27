@@ -35,7 +35,7 @@ int main()
     // Initialize the PID instances and its variables.
     PID pid;
     double kp = 0.225;
-    double ki = 0.0; // No need to compensate for sytematic bias (we don't have them).
+    double ki = 0.0;
     double kd = 3.0;
     pid.Init(kp, ki, kd);
 
