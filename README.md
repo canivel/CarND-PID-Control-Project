@@ -3,8 +3,8 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 ## PID Controller
-The PID controller continously calculates the error between a desired setpoint and the measured process variable. It is named after it's three coefficients the **P**roportional, **I**ntegral and **D**erivate described below.
-In this project we use the "Cross-Term-Error"(CTE) as process variable and the setpoint to 0.
+The PID controller continously calculates the error between a desired setpoint and the measured process variable. 
+We use the "Cross-Term-Error"(CTE) as process variable and the setpoint to 0.
 
 ### **P**roportional Controller
 It's just correcting a portion of the error in the opposite direction. If the proportional gain (Kp) is too high the steering is unstable and oscillates. If the gain is too small the response time is too long.
